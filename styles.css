@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;300;400;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  background-color: #232931;
+  color: white;
+}
+
+.header {
+  height: 58px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-left: 10%;
+  padding-right: 40%;
+}
+
+.logo {
+  color: #4ecca3;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 24px;
+}
+
+nav ul li :hover {
+  color: blue;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
+.images {
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+.images .photo {
+  mix-blend-mode: ;
+  background-color: transparent;
+}
+
+.home-content h1 {
+  font-size: 35px;
+}
+
+.Name {
+  color: #4ecca3;
+  font-size: 50px;
+}
+
+.home-content h3 {
+  font-size: 25px;
+  color: blue;
+  margin: 2px 0;
+}
+
+p {
+  font-size: 12px;
+  margin: 2px 0 45px;
+}
+
+.home .home-content .button-box {
+  width: 230px;
+  height: 30px;
+}
+
+.chatme {
+  background-color: white;
+  color: black;
+  display: inline-flex;
+  width: 112px;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.more {
+  display: inline-flex;
+  width: 112px;
+  height: 100%;
+  background-color: transparent;
+  color: #4ecca3;
+  border: 1px solid #4ecca3;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+.button-box :hover {
+  background-color: #4ecca3;
+  transition: 0.3s;
+  color: black;
+}
